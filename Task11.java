@@ -1,0 +1,10 @@
+// электронные часы 1
+import java.util.Scanner;
+
+public class Task11 {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+        System.out.println(n % 1440 / 60 + " " + n % 60);
+    }
+}
